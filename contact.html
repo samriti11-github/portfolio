@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ME  Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button:hover{
+            background-color: purple;
+            color:white;
+        }
+        body {
+            background-color: thistle;
+        }
+        label {
+        font-size: 60px;
+        }
+        input,button {
+            font-size: 100px;
+        }
+        h2{
+            font-size: 50px;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+          <h1>My Portfolio</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <input id="message" name="message" required></input>
+          <button type="submit"> Send</button>
+        </form>
+      </section>
+    
+</body>
+</html>

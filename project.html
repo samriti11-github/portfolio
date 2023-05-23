@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
+    <style>
+        body {
+            background-color: lavender;
+        }
+        p{
+          font-size: 50px;
+          text-align: left;
+        }
+        h2{
+            font-size: 50px;
+          text-align: left;
+
+        }
+        h3{
+          font-size: 50px;
+          text-align: left;
+          color: blue;
+
+        }
+        .hidden-content {
+         display: none;
+        }
+        #readMoreBtn {
+          margin-left: 100px;
+        }
+        .link {
+          margin-left: 60px;
+        }
+         h3{
+          text-align: justify;
+          color:teal ;
+        }
+         p{
+          color:purple;
+        }
+
+    </style>
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+          <h1>My Portfolio</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>PROJECT MANAGEMENT</p>
+          <p>Project management is the process of planning, organizing, supervising  and controlling resources 
+            to achieve the targeted goal. Project management is The use of specific knowledge, skills, tools and
+             techniques to deliver something of value to people. He also discussed about software project 
+             management. Software project management is dedicated to the planning, scheduling, resource
+              allocation, execution, tracking, and delivery of software and web projects. Software  project
+               management is the art of leading and planning software project. </p>
+            
+        </div>
+
+            <button id="readMoreBtn">Read More</button>
+            <div id="content" class="hidden-content">
+              <h2>Additional Content</h2>
+              <p>This is some additional content that will be shown when you click the "Read More" button.</p>
+              <p>You can add more paragraphs, images, or any other content here.</p>
+            </div>
+
+
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>WEB DEVELOPMENT</p>
+          <P> Web development is the process of coding and programming that enables the website 
+            functionality as per the owner's preference and requirements.</P>
+            <P>For more content please visit the link below.</P>
+          <div class="link">
+          <a href="https://wordpress.com/post/samriti0.wordpress.com/70">My blog link</a>
+
+          </div>
+        </div>
+        
+      </section>
+    
+</body>
+</html>

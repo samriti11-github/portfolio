@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+  }
+  
+  header {
+    background-color: salmon;
+    color: purple;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+    font-size: 45px;;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 45px;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: salmon;
+    color: purple;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button:hover{
+    background-color: #D61355;
+    color:white;
+}
+
+ .contact.html{
+  font-size: 30px;
+ }
+ .name{
+  font-size: 100px;
+  color: purple;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ button{
+  font-size: 60px;
+ }
+
+ @media (max-width: 480px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .infocontainer {
+    margin: 50px auto;
+  }
+  .link {
+    margin-left: 80px;
+  }
+}
